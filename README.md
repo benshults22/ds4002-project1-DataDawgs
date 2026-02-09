@@ -41,10 +41,11 @@ LICENSE.md: This file explains the terms under which this repository may be cite
 ---
 
 ### Reproducing Results
-1. Open `SCRIPTS/Project_1_Code.ipynb` in Google Colab.
-2. Upload `DATA/Restaurant reviews.csv` into your Colab session  
-3. Run the notebook cells **top-to-bottom**.
-4. The notebook will:
+1. In GitHub, open the SCRIPTS folder. Download `Project_1_Code.ipynb` and upload it into Google Colab.
+2. In GitHub, open the DATA folder. Download `Restaurant reviews.csv`.
+3. In your Colab notebook, upload `Restaurant reviews.csv` by clicking Files on the left sidebar and dragging the file into the session root (not into any subfolder).
+4. Run the notebook cells **top-to-bottom**.
+5. The notebook will:
    - Drop empty or missing review text rows
    - Drop non-numeric rating rows
    - Convert ratings to sentiment labels:
@@ -56,6 +57,6 @@ LICENSE.md: This file explains the terms under which this repository may be cite
    - Split into train/test sets
    - Train **Naive Bayes** and **Logistic Regression**
    - Print model evaluation metrics and generate confusion matrices
-5. Confirm your results by checking:
+6. Confirm your results by checking:
    - Printed classification reports + accuracy in the notebook output
-   - Confusion matrix figures (and save/export them into `OUTPUT/` if needed)
+   - Confusion matrix figures
