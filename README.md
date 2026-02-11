@@ -27,6 +27,7 @@ LICENSE.md: This file explains the terms under which this repository may be cite
 
 ### Documentation Map
 **DATA (folder) contains:**
+- Project 1 Data Appendix.pdf (data appendix)
 - Restaurant reviews.csv (raw dataset)
 - restaurant_reviews_cleaned.csv (cleaned dataset created by our cleaning step)
 
