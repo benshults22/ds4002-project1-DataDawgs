@@ -1,0 +1,21 @@
+NB classification report
+              precision    recall  f1-score   support
+
+    negative       0.86      0.67      0.75       489
+     neutral       0.00      0.00      0.00       238
+    positive       0.78      0.99      0.87      1260
+
+    accuracy                           0.79      1987
+   macro avg       0.55      0.55      0.54      1987
+weighted avg       0.70      0.79      0.74      1987
+
+LR classification report
+              precision    recall  f1-score   support
+
+    negative       0.77      0.80      0.78       489
+     neutral       0.33      0.47      0.39       238
+    positive       0.92      0.84      0.88      1260
+
+    accuracy                           0.78      1987
+   macro avg       0.67      0.70      0.68      1987
+weighted avg       0.81      0.78      0.79      1987
