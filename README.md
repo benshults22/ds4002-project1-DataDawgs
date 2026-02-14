@@ -35,6 +35,7 @@ LICENSE.md: This file explains the terms under which this repository may be cite
 - confusion_matrix_nb.png (Naive Bayes confusion matrix)
 - confusion_matrix_lr.png (Logistic Regression confusion matrix)
 - model_metrics.txt (classification reports / accuracy results)
+- sentiment_distribution (sentiment frequency distribution chart)
 
 **SCRIPTS (folder) contains:**
 - Project_1_Code.ipynb (Colab notebook with cleaning, modeling, and evaluation)
